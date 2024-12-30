@@ -52,7 +52,7 @@ with gr.Blocks(title="LanguageMentor 英语私教") as language_mentor_app:
 
         scenario_intro = gr.Markdown()  # 场景介绍文本组件
         scenario_chatbot = gr.Chatbot(
-            placeholder="<strong>你的英语私教 DjangoPeng</strong><br><br>选择场景后开始对话吧！",  # 聊天机器人的占位符
+            placeholder="<strong> 我是英语私教 </strong><br><br>选择场景后开始对话吧！",  # 聊天机器人的占位符
             height=600,  # 聊天窗口高度
         )
 
